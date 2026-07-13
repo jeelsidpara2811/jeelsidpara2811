@@ -51,6 +51,19 @@ Python for everything. scikit-learn and XGBoost when the data is tabular, PyTorc
 
 </div>
 
+## Obligatory snake
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jeelsidpara2811/jeelsidpara2811/output/github-contribution-grid-snake-dark.svg">
+  <img alt="snake eating my contribution graph" src="https://raw.githubusercontent.com/jeelsidpara2811/jeelsidpara2811/output/github-contribution-grid-snake.svg">
+</picture>
+
+<sub>Regenerated every night by GitHub Actions.</sub>
+
+</div>
+
 <div align="center">
 
 <sub>Yes, the accent color is matplotlib's default blue.</sub>
