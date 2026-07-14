@@ -1,12 +1,12 @@
-name: generate snake animation
+name: profile assets - snake + thought of the day
 
 on:
   # regenerate every night at midnight UTC
   schedule:
     - cron: "0 0 * * *"
-  # adds a manual "Run workflow" button in the Actions tab
+  # manual "Run workflow" button in the Actions tab
   workflow_dispatch:
-  # also runs on every push to main (so it runs immediately when you commit this file)
+  # also runs on every push to main
   push:
     branches:
       - main
@@ -19,6 +19,9 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
+      - name: checkout (needed to read thoughts.txt)
+        uses: actions/checkout@v4
+
       - name: generate the snake SVGs (light + dark)
         uses: Platane/snk/svg-only@v3
         with:
@@ -27,7 +30,38 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: push the SVGs to the output branch
+      - name: generate thought of the day
+        run: |
+          python3 - << 'PY'
+          import datetime, html, textwrap, pathlib
+          thoughts = [ln.strip() for ln in open('thoughts.txt', encoding='utf-8') if ln.strip()]
+          n = len(thoughts)
+          idx = datetime.date.today().toordinal() % n
+          quote = thoughts[idx]
+          lines = textwrap.wrap(quote, width=56)[:3] or ['']
+          esc = [html.escape(ln) for ln in lines]
+          line_h = 32
+          tspans = ''.join(
+              '<tspan x="96" dy="{}">{}</tspan>'.format(0 if i == 0 else line_h, ln)
+              for i, ln in enumerate(esc)
+          )
+          h = 150 + line_h * (len(esc) - 1)
+          today = datetime.date.today().strftime('%d %b %Y').upper()
+          svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 {h}" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+            <rect x="4" y="4" width="812" height="{h - 8}" rx="16" fill="#F4F9FE" stroke="#C9DFF5" stroke-width="2"/>
+            <rect x="34" y="34" width="6" height="0" rx="3" fill="#1F77B4">
+              <animate attributeName="height" from="0" to="{h - 68}" dur="0.7s" begin="0.1s" fill="freeze"/>
+            </rect>
+            <text x="56" y="76" font-size="48" font-weight="700" fill="#1F77B4" opacity="0">&#8220;<animate attributeName="opacity" from="0" to="0.9" dur="0.6s" begin="0.2s" fill="freeze"/></text>
+            <text x="96" y="66" font-size="22" fill="#1F3A5F" opacity="0">{tspans}<animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.35s" fill="freeze"/></text>
+            <text x="96" y="{h - 34}" font-size="13" letter-spacing="2" fill="#3D6E9E" opacity="0">THOUGHT OF THE DAY &#183; {idx + 1}/{n} &#183; {today}<animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.8s" fill="freeze"/></text>
+          </svg>'''
+          pathlib.Path('dist').mkdir(exist_ok=True)
+          pathlib.Path('dist/thought.svg').write_text(svg, encoding='utf-8')
+          print(f'Thought #{idx + 1}/{n}: {quote}')
+          PY
+
+      - name: push SVGs to the output branch
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: output
