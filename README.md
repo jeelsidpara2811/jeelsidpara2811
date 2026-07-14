@@ -17,16 +17,6 @@ Hi I'm Jeel. I turn messy data and raw pixels into systems that actually run: mo
 
 </div>
 
-## The project I'd show first
-
-**COOL-OPTI** — an end-to-end machine-learning system for optimizing a cooling bed in steel manufacturing.
-
-- A data pipeline that tames **20+ years** of heterogeneous Excel production logs
-- A **multi-output surrogate model** predicting five mechanical properties simultaneously
-- A **two-phase stochastic optimizer** that turns predictions into concrete parameter recommendations
-- Shipped as production-ready Python: CLI, documentation, and a synthetic data generator
-
-`Python` · `Pandas` · `scikit-learn` · `XGBoost` · `Matplotlib` · `Azure DevOps`
 
 ## Selected work
 
