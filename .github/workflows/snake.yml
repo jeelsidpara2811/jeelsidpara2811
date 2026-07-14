@@ -54,7 +54,7 @@ jobs:
             </rect>
             <text x="56" y="76" font-size="48" font-weight="700" fill="#1F77B4" opacity="0">&#8220;<animate attributeName="opacity" from="0" to="0.9" dur="0.6s" begin="0.2s" fill="freeze"/></text>
             <text x="96" y="66" font-size="22" fill="#1F3A5F" opacity="0">{tspans}<animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.35s" fill="freeze"/></text>
-            <text x="96" y="{h - 34}" font-size="13" letter-spacing="2" fill="#3D6E9E" opacity="0">THOUGHT OF THE DAY &#183; {idx + 1}/{n} &#183; {today}<animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.8s" fill="freeze"/></text>
+            <text x="96" y="{h - 34}" font-size="13" letter-spacing="2" fill="#3D6E9E" opacity="0">THOUGHT OF THE DAY &#183; {today}<animate attributeName="opacity" from="0" to="1" dur="0.9s" begin="0.8s" fill="freeze"/></text>
           </svg>'''
           pathlib.Path('dist').mkdir(exist_ok=True)
           pathlib.Path('dist/thought.svg').write_text(svg, encoding='utf-8')
