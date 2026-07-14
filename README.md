@@ -7,15 +7,13 @@
 
 </div>
 
-Hi — I'm Jeel. I turn messy data and raw pixels into systems that actually run: models, the pipelines that feed them, and the APIs that serve them. Hand me twenty years of chaotic Excel exports or a camera pointed at something hard to read, and you'll get back a model with a CLI, a Docker image, and documentation. Happiest where tabular ML, computer vision, and optimization overlap. I work in German and English.
+Hi I'm Jeel. I turn messy data and raw pixels into systems that actually run: models, the pipelines that feed them, and the APIs that serve them. Hand me twenty years of chaotic Excel exports or a camera pointed at something hard to read, and you'll get back a model with a CLI, a Docker image, and documentation. Happiest where tabular ML, computer vision, and optimization overlap. I work in German and English.
 
 ## Thought of the day
 
 <div align="center">
 
 ![thought of the day](https://raw.githubusercontent.com/jeelsidpara2811/jeelsidpara2811/output/thought.svg)
-
-<sub>One of 105, rotating nightly — same GitHub Action as the snake below.</sub>
 
 </div>
 
@@ -73,8 +71,6 @@ Python for everything. scikit-learn and XGBoost when the data is tabular, PyTorc
 </div>
 
 <div align="center">
-
-<sub>Yes, the accent color is matplotlib's default blue.</sub>
 
 ![footer](./footer.svg)
 
