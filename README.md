@@ -1,19 +1,27 @@
 <div align="center">
 
-[![banner](https://capsule-render.vercel.app/api?type=waving&height=170&color=0:EAF3FB,100:C9DFF5&text=Jeel%20Sidpara&fontColor=1F3A5F&fontSize=44&fontAlignY=38&animation=fadeIn&desc=Applied%20AI%20%26%20Data%20Science&descAlignY=58&descSize=18)](https://github.com/jeelsidpara2811)
+![banner](./banner.svg)
 
 [![Email](https://img.shields.io/badge/Email-jeelsidpara2811%40gmail.com-1F77B4?style=flat-square&logo=gmail&logoColor=white)](mailto:jeelsidpara2811@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Jeel%20Sidpara-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jeel-sidpara-276208359/)
 
 </div>
 
-I build machine-learning systems for heavy industry. By day I'm a working student in **AI & Data Science at SAH Stahlwerk Annahütte** (Max Aicher Group), turning twenty-plus years of messy production data into models a process engineer can actually act on. On the side I'm founding a stealth AI startup helping traditional businesses automate their way into Industry 4.0.
+Hi — I'm Jeel. I turn messy data and raw pixels into systems that actually run: models, the pipelines that feed them, and the APIs that serve them. Hand me twenty years of chaotic Excel exports or a camera pointed at something hard to read, and you'll get back a model with a CLI, a Docker image, and documentation. Happiest where tabular ML, computer vision, and optimization overlap. I work in German and English.
 
-B.Sc. Computer Science at Rosenheim Technical University of Applied Sciences (2023–2027). I work in German and English.
+## Thought of the day
+
+<div align="center">
+
+![thought of the day](https://raw.githubusercontent.com/jeelsidpara2811/jeelsidpara2811/output/thought.svg)
+
+<sub>One of 105, rotating nightly — same GitHub Action as the snake below.</sub>
+
+</div>
 
 ## The project I'd show first
 
-**COOL-OPTI** — built during my data-science internship at the steel plant: an end-to-end system for optimizing a cooling bed in steel manufacturing.
+**COOL-OPTI** — an end-to-end machine-learning system for optimizing a cooling bed in steel manufacturing.
 
 - A data pipeline that tames **20+ years** of heterogeneous Excel production logs
 - A **multi-output surrogate model** predicting five mechanical properties simultaneously
@@ -68,6 +76,6 @@ Python for everything. scikit-learn and XGBoost when the data is tabular, PyTorc
 
 <sub>Yes, the accent color is matplotlib's default blue.</sub>
 
-[![footer](https://capsule-render.vercel.app/api?type=waving&height=90&color=0:C9DFF5,100:EAF3FB&section=footer&animation=fadeIn)](https://github.com/jeelsidpara2811)
+![footer](./footer.svg)
 
 </div>
