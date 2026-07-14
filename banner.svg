@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 230" font-family="Segoe UI, Ubuntu, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F6FAFE"/>
+      <stop offset="1" stop-color="#DCEAF8"/>
+    </linearGradient>
+    <clipPath id="round"><rect width="1200" height="230" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect width="1200" height="230" fill="url(#bg)"/>
+
+    <path d="M70 150 L150 118 L230 136 L310 96" fill="none" stroke="#1F77B4" stroke-width="2.5" stroke-linecap="round" opacity="0.28" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" from="1" to="0" dur="1.6s" begin="0.4s" fill="freeze"/>
+    </path>
+    <path d="M890 100 L970 140 L1050 112 L1130 150" fill="none" stroke="#1F77B4" stroke-width="2.5" stroke-linecap="round" opacity="0.28" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1">
+      <animate attributeName="stroke-dashoffset" from="1" to="0" dur="1.6s" begin="0.6s" fill="freeze"/>
+    </path>
+
+    <g fill="#1F77B4">
+      <circle cx="70" cy="150" r="4" opacity="0.5"><animate attributeName="cy" values="150;142;150" dur="6s" repeatCount="indefinite"/></circle>
+      <circle cx="150" cy="118" r="4" opacity="0.45"><animate attributeName="cy" values="118;126;118" dur="7.5s" repeatCount="indefinite"/></circle>
+      <circle cx="230" cy="136" r="4" opacity="0.4"><animate attributeName="cy" values="136;128;136" dur="5.2s" repeatCount="indefinite"/></circle>
+      <circle cx="310" cy="96" r="4" opacity="0.5"><animate attributeName="cy" values="96;104;96" dur="8s" repeatCount="indefinite"/></circle>
+      <circle cx="890" cy="100" r="4" opacity="0.5"><animate attributeName="cy" values="100;108;100" dur="6.8s" repeatCount="indefinite"/></circle>
+      <circle cx="970" cy="140" r="4" opacity="0.4"><animate attributeName="cy" values="140;132;140" dur="5.6s" repeatCount="indefinite"/></circle>
+      <circle cx="1050" cy="112" r="4" opacity="0.45"><animate attributeName="cy" values="112;120;112" dur="7.2s" repeatCount="indefinite"/></circle>
+      <circle cx="1130" cy="150" r="4" opacity="0.5"><animate attributeName="cy" values="150;142;150" dur="6.4s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <text x="600" y="102" text-anchor="middle" font-size="54" font-weight="700" fill="#1F3A5F" opacity="0">Jeel Sidpara
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.15s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="translate" from="0 14" to="0 0" dur="0.9s" begin="0.15s" fill="freeze"/>
+    </text>
+    <text x="600" y="140" text-anchor="middle" font-size="19" letter-spacing="6" fill="#3D6E9E" opacity="0">APPLIED AI &#183; DATA SCIENCE
+      <animate attributeName="opacity" from="0" to="1" dur="1s" begin="0.7s" fill="freeze"/>
+    </text>
+
+    <g>
+      <path fill="#BBD8F3" d="M0 178 Q75 158 150 178 T300 178 T450 178 T600 178 T750 178 T900 178 T1050 178 T1200 178 T1350 178 T1500 178 T1650 178 T1800 178 V230 H0 Z">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="18s" repeatCount="indefinite"/>
+      </path>
+      <path fill="#8FBEEB" d="M0 192 Q75 176 150 192 T300 192 T450 192 T600 192 T750 192 T900 192 T1050 192 T1200 192 T1350 192 T1500 192 T1650 192 T1800 192 V230 H0 Z">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="11s" repeatCount="indefinite"/>
+      </path>
+      <path fill="#5B9BD5" d="M0 206 Q75 194 150 206 T300 206 T450 206 T600 206 T750 206 T900 206 T1050 206 T1200 206 T1350 206 T1500 206 T1650 206 T1800 206 V230 H0 Z">
+        <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="7s" repeatCount="indefinite"/>
+      </path>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 110">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#DCEAF8"/>
+      <stop offset="1" stop-color="#F6FAFE"/>
+    </linearGradient>
+    <clipPath id="fround"><rect width="1200" height="110" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#fround)">
+    <rect width="1200" height="110" fill="url(#fbg)"/>
+    <path fill="#BBD8F3" d="M0 40 Q75 58 150 40 T300 40 T450 40 T600 40 T750 40 T900 40 T1050 40 T1200 40 T1350 40 T1500 40 T1650 40 T1800 40 V0 H0 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="18s" repeatCount="indefinite"/>
+    </path>
+    <path fill="#8FBEEB" d="M0 26 Q75 40 150 26 T300 26 T450 26 T600 26 T750 26 T900 26 T1050 26 T1200 26 T1350 26 T1500 26 T1650 26 T1800 26 V0 H0 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="11s" repeatCount="indefinite"/>
+    </path>
+    <path fill="#5B9BD5" d="M0 14 Q75 24 150 14 T300 14 T450 14 T600 14 T750 14 T900 14 T1050 14 T1200 14 T1350 14 T1500 14 T1650 14 T1800 14 V0 H0 Z">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-600 0" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+</svg>

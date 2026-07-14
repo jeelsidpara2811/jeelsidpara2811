@@ -1,0 +1,105 @@
+Clean data is a myth. Cleaned data is a victory.
+The model is 10% of the work and 90% of the demo.
+If you can't plot it, you don't understand it yet.
+Every pipeline is temporary — especially the ones labeled permanent.
+Overfitting is memorization wearing confidence.
+A baseline you shipped beats a transformer you didn't.
+Garbage in, garbage out — but faster, and with a dashboard.
+The best feature engineering is asking someone who works on the floor.
+Accuracy is a number. Trust is earned in meetings.
+Logs are love letters to your future self.
+Your test set lies to you slightly less than your training set.
+Data has a shape. Stop imagining it and look.
+Write the docs before you forget why the code exists.
+Nobody ever regretted versioning their data.
+A notebook is a sketch. Production is a sculpture.
+If the demo works on the first try, check what you forgot to plug in.
+Most AI problems are Excel problems with ambition.
+Correlation flirts. Causation commits.
+Delete code fearlessly; git remembers so you don't have to.
+Simple models fail loudly. That's a feature.
+An unmonitored model is a rumor in production.
+The outlier you dropped was probably the interesting part.
+Ship the boring solution. Blog about the fancy one.
+Every dataset is a biography of the process that made it.
+Hyperparameters are where hope goes to iterate.
+Debugging is data science applied to your own assumptions.
+Good pipelines make bad data obvious.
+Averages hide. Distributions confess.
+The fastest optimization is deleting the step.
+Label quality beats model size. Quietly, every time.
+If it isn't reproducible, it's an anecdote.
+Yesterday's hack is today's dependency.
+Start with the question, not the CSV.
+Feature importance is a hint, not a verdict.
+Real-time is a requirement; near-time is usually the answer.
+Your model learned exactly what you showed it. That's the problem.
+Missing values are data about your data.
+A good validation split is worth a thousand epochs.
+Complexity is a loan. Interest is due at 3 a.m.
+The dashboard nobody opens measures nothing.
+First make it run. Then make it right. Then make it a CLI.
+Every quick script is a product waiting to be maintained.
+Domain knowledge is the original pretrained model.
+Small data, big care. Big data, big bills.
+Ask the data politely: with a holdout set.
+Seed your randomness. Chaos is not a methodology.
+Precision or recall — pick the one your users will forgive.
+Every ETL has an opinion. Learn it before it surprises you.
+Prototypes age like fruit, not wine.
+The learning curve flattens right after you stop copying tutorials.
+Naming things well is free performance for your brain.
+There is no cloud for bad schemas — only more expensive bad schemas.
+A model card is cheaper than a postmortem.
+Trust intervals. Suspect points.
+When in doubt, look at ten raw rows.
+Grid search is patience pretending to be strategy.
+Batch jobs fail at night because that's when you scheduled them.
+Refactor when it hurts twice.
+The floor of your data quality is the ceiling of your model.
+Metrics you don't question become goals you regret.
+Automate the boring 80%; savor the weird 20%.
+Every graph needs a sentence more than every sentence needs a graph.
+Latency is a feature users feel before accuracy.
+Read the error message. Then read it again, slower.
+Your future self is your most frequent collaborator. Be kind.
+Data drifts. So should your assumptions.
+Normalize inputs, not opinions.
+An honest baseline is the best negotiation tool in the room.
+Comment the why. The code already says the what.
+Half of MLOps is remembering where you put things.
+The best cache is the computation you never do.
+Confusion matrices: aptly named, endlessly useful.
+Plot first. Apologize never.
+Nothing scales like a well-named folder structure.
+Weekends are for hobbies. Cron exists for a reason.
+Beware pipelines that only work when watched.
+One good example beats three paragraphs of docs.
+The demo dataset is a fairy tale. Production is journalism.
+Regularization is telling your model it doesn't know everything.
+Learn SQL like you'll use it forever. You will.
+Fast feedback loops are the real 10x tool.
+A chart with ten legend items is three charts in denial.
+Version everything that can surprise you.
+Model drift is slow. Stakeholder drift is faster.
+The most underrated skill: writing a clear ticket.
+Bugs cluster where assumptions meet.
+What gets logged gets debugged.
+There is no unstructured data — only unexamined structure.
+Ensemble your opinions, too.
+Estimate twice, deploy once.
+Keep a lab notebook. Memory is a lossy format.
+Interpretability is a conversation, not a plot.
+Great pipelines are boring on purpose.
+Datasets remember what organizations forget.
+First rule of optimization: measure. Second rule: measure again.
+A model in a notebook is a hypothesis. A model behind an API is a promise.
+Choose tools you can debug at midnight.
+Every threshold is a policy decision in a trench coat.
+Curiosity is the only feature with no downside.
+Backups are cheap. Sundays spent restoring are not.
+Teach the machine, but interview the humans.
+Progress is deleting your old workarounds.
+The best model is the one still running next quarter.
+Rows are cheap. Understanding is expensive.
+Start simple. Stay honest. Ship.
